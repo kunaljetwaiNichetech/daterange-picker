@@ -19,7 +19,7 @@ export default function Datepicker() {
   const [state, setState] = useState([
     {
       startDate: g ? g[0]?.startDate : null,
-      endDate: g ? g[0]?.endDate : null,
+      endDate:g ? g[0]?.endDate : null,
       // endDate: addDays(new Date(), 5),
       key: "selection",
     },

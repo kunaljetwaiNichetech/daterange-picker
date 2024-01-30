@@ -6,6 +6,7 @@ import {BrowserRouter as Router ,Routes,Route} from 'react-router-dom'
 import Display from './components/Display';
 import Display2 from './components/Display2';
 import Ternaryy from './components/Ternaryy';
+import Ternary2 from './components/ternary2';
 
 function App() {
   // const [lala,setlala]=useState()
@@ -22,6 +23,7 @@ function App() {
           <Route path='/display' element={<Display/>} />
           <Route path='/d' element={<Display2/>} />
           <Route path='/ter' element={<Ternaryy/>} />
+          <Route path='/ter2' element={<Ternary2/>} />
 
         </Routes>
       </Router>
